@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox", "Mindbox\Mindbox.csproj", "{AC684B91-00DA-4E1E-875A-1D730B274089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricCalculator", "GeometricCalculator\GeometricCalculator.csproj", "{71041BEC-5F13-420C-BAB1-2035287FBD8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC684B91-00DA-4E1E-875A-1D730B274089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC684B91-00DA-4E1E-875A-1D730B274089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC684B91-00DA-4E1E-875A-1D730B274089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC684B91-00DA-4E1E-875A-1D730B274089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71041BEC-5F13-420C-BAB1-2035287FBD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71041BEC-5F13-420C-BAB1-2035287FBD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71041BEC-5F13-420C-BAB1-2035287FBD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71041BEC-5F13-420C-BAB1-2035287FBD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54AC0E2B-C68D-4499-9D15-21A43FD0DF65}
+	EndGlobalSection
+EndGlobal
