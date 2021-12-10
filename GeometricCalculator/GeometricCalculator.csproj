@@ -42,8 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Figure\Circle.cs" />
+    <Compile Include="Figure\Figure2D.cs" />
+    <Compile Include="Figure\Triangle.cs" />
     <Compile Include="ISquare.cs" />
-    <Compile Include="Square.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

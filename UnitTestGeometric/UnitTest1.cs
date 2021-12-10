@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using GeometricCalculator.Figure;
+using System;
 
 //Напишите на C# библиотеку для поставки внешним клиентам, которая умеет вычислять площадь круга по радиусу и треугольника по трем сторонам. Дополнительно к работоспособности оценим:
 //Юнит-тесты
@@ -17,13 +15,42 @@ using System.Threading.Tasks;
 //Также без выполненного задания отклик не будет рассмотрен.
 //Github или Pastebin всё еще удобнее чем поле на hh. По возможности — положите ответ рядом с кодом из первого вопроса.
 
-
-namespace Mindbox
+namespace UnitTestGeometric
 {
-    class Program
+    [TestClass]
+    public class UnitTest1
     {
-        static void Main(string[] args)
+        [TestMethod]
+        public void CalcSquareCircle()
         {
+            Figure2D figure = new Circle(2);
+            Assert.AreEqual(Math.PI*4, figure.CalcSquare());
+        }
+
+        [TestMethod]
+        public void CalcSquareTriangle()
+        {
+            Figure2D figure = new Triangle(3, 4, 5);
+            Assert.AreEqual(6, figure.CalcSquare());
+        }
+
+        [TestMethod]
+        public void IsRightTriangle()
+        {
+            Triangle figure = new Triangle(3, 4, 5);
+            Assert.IsTrue(figure.IsRightAngle);
+        }
+
+        [TestMethod]
+        public void ZiroParamTriangle()
+        {
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => new Triangle(0, 4, 5));
+        }
+
+        [TestMethod]
+        public void ErrorParamTriangle()
+        {
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => new Triangle(3, 4, 100));
         }
     }
 }

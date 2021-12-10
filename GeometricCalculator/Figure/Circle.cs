@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeometricCalculator.Figure
 {
-    class Circle : ISquare
+    public class Circle : Figure2D
     {
         double Radius { get; set; }
 
@@ -15,9 +15,9 @@ namespace GeometricCalculator.Figure
             Radius = radius;
         }
 
-        public double CalcSquare()
+        override public double CalcSquare()
         {
-            return 2 * Math.PI * Math.Pow(Radius, 2);
+            return Math.PI * Math.Pow(Radius, 2);
         }
     }
 }

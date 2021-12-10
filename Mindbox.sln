@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox", "Mindbox\Mindbox.csproj", "{AC684B91-00DA-4E1E-875A-1D730B274089}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricCalculator", "GeometricCalculator\GeometricCalculator.csproj", "{71041BEC-5F13-420C-BAB1-2035287FBD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestGeometric", "UnitTestGeometric\UnitTestGeometric.csproj", "{E029AE45-18EA-401A-A267-43DE713F888D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AC684B91-00DA-4E1E-875A-1D730B274089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC684B91-00DA-4E1E-875A-1D730B274089}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC684B91-00DA-4E1E-875A-1D730B274089}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC684B91-00DA-4E1E-875A-1D730B274089}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71041BEC-5F13-420C-BAB1-2035287FBD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71041BEC-5F13-420C-BAB1-2035287FBD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71041BEC-5F13-420C-BAB1-2035287FBD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71041BEC-5F13-420C-BAB1-2035287FBD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E029AE45-18EA-401A-A267-43DE713F888D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E029AE45-18EA-401A-A267-43DE713F888D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E029AE45-18EA-401A-A267-43DE713F888D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E029AE45-18EA-401A-A267-43DE713F888D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
